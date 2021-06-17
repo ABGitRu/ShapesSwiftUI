@@ -11,6 +11,10 @@
 		048A57B8267BBD9E0041D1FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57B7267BBD9E0041D1FC /* ContentView.swift */; };
 		048A57BA267BBDAD0041D1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048A57B9267BBDAD0041D1FC /* Assets.xcassets */; };
 		048A57BD267BBDAD0041D1FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048A57BC267BBDAD0041D1FC /* Preview Assets.xcassets */; };
+		048A57C6267BBE440041D1FC /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57C5267BBE440041D1FC /* GradientRectangles.swift */; };
+		048A57C9267BC3A50041D1FC /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57C8267BC3A50041D1FC /* PathView.swift */; };
+		048A57CC267BC9570041D1FC /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57CB267BC9570041D1FC /* CurvesView.swift */; };
+		048A57CF267BCE050041D1FC /* AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57CE267BCE050041D1FC /* AwardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		048A57B9267BBDAD0041D1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048A57BC267BBDAD0041D1FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		048A57BE267BBDAD0041D1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A57C5267BBE440041D1FC /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		048A57C8267BC3A50041D1FC /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		048A57CB267BC9570041D1FC /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		048A57CE267BCE050041D1FC /* AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				048A57B5267BBD9E0041D1FC /* ShapesSwiftUIApp.swift */,
 				048A57B7267BBD9E0041D1FC /* ContentView.swift */,
+				048A57CE267BCE050041D1FC /* AwardView.swift */,
+				048A57CB267BC9570041D1FC /* CurvesView.swift */,
+				048A57C8267BC3A50041D1FC /* PathView.swift */,
+				048A57C5267BBE440041D1FC /* GradientRectangles.swift */,
 				048A57B9267BBDAD0041D1FC /* Assets.xcassets */,
 				048A57BE267BBDAD0041D1FC /* Info.plist */,
 				048A57BB267BBDAD0041D1FC /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048A57CF267BCE050041D1FC /* AwardView.swift in Sources */,
+				048A57CC267BC9570041D1FC /* CurvesView.swift in Sources */,
 				048A57B8267BBD9E0041D1FC /* ContentView.swift in Sources */,
+				048A57C9267BC3A50041D1FC /* PathView.swift in Sources */,
 				048A57B6267BBD9E0041D1FC /* ShapesSwiftUIApp.swift in Sources */,
+				048A57C6267BBE440041D1FC /* GradientRectangles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                ScrollView {
+                    GradientRectangles(width: 250, height: 250)
+                    PathView(width: 250, height: 250)
+                    CurvesView(width: 250, height: 250)
+                }
+            }
+        }
     }
 }
 
